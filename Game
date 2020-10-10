@@ -30,5 +30,4 @@ class Program
 	Console.Writeline("Press anykey to close");
 	Console.Readkey();
 	}
-
 }
