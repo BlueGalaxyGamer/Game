@@ -11,7 +11,7 @@ class Characters
 
 class Program
 {
-	oublic Void Main() 
+	public void Main() 
 	{
 	//Changing the title of the program
 	Console.Title = "Game Name";
