@@ -17,7 +17,7 @@ class Program
 	Console.Title = "Game Name";
 		
 	//Calling another class
-	Characters character = new Characters
+	Characters character = new Characters();
 		
 	//Displaying some text
 	Console.Writeline("HI I am "+ character.botName() + ". Whats yours?");
