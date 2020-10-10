@@ -1,0 +1,30 @@
+Using System;
+
+class Characters
+{
+
+		string botName = "Name";
+		string userName;
+
+}
+
+class Program
+{
+		//Changing the title of the program
+		Console.Title = "Game Name";
+		
+		//Calling another class
+		Characters character = new Characters
+		
+		//Displaying some text
+		Console.Writeline("HI I am "+ character.botName() + ". Whats yours?");
+
+		//Asking for the user's name
+		Console.Write("Name: ");
+		characters.userName = Console.Readline();
+		
+		//Waiting for input by the user to close the game
+		Console.Writeline("Press anykey to close");
+		Console.Readkey();
+
+}
