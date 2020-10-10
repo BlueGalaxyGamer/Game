@@ -11,6 +11,8 @@ class Characters
 
 class Program
 {
+	oublic Void Main() 
+	{
 	//Changing the title of the program
 	Console.Title = "Game Name";
 		
@@ -27,5 +29,6 @@ class Program
 	//Waiting for input by the user to close the game
 	Console.Writeline("Press anykey to close");
 	Console.Readkey();
+	}
 
 }
