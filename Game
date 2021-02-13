@@ -4,20 +4,20 @@ Using System;
 class Characters
 {
 
-	string botName = "Name";
-	string userName;
-
+	public string botName = "Name";
+	public string userName;
+	public string title = "Game Name"
+	
 }
 
 class Program
 {
-	static void Main(string[] args)
-	{
-	//Changing the title of the program
-	Console.Title = "Game Name";
-		
 	//Calling another class
 	Characters character = new Characters();
+	
+	static void Main(string[] args)	{
+	//Changing the title of the program
+	Console.Title = character.Title
 		
 	//Displaying some text
 	Console.Writeline("HI I am "+ character.botName() + ". Whats yours?");
